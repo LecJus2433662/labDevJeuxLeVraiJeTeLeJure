@@ -22,6 +22,9 @@ public:
 	int	getAtt();
 	int getDef();
 	int getVie();
+
+	int getValeur();
+
 	virtual string to_String();
 
 };

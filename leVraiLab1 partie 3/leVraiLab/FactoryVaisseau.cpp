@@ -18,6 +18,7 @@ Vaisseau* FactoryVaisseau::getRandomVaisseau()
 		vaisseau = new Transport(maFaction);
 	return vaisseau;
 }
+
 Faction* FactoryVaisseau::getRandomFaction()
 {
 

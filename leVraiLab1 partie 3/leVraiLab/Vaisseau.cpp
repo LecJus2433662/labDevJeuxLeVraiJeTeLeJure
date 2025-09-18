@@ -28,6 +28,10 @@ int Vaisseau::getVie()
 {
 	return vie;
 }
+int Vaisseau::getValeur()
+{
+	return valeurMarchande;
+}
 
 string Vaisseau::to_String()
 {
@@ -43,6 +47,9 @@ string Vaisseau::to_String()
 	info.append("\n");
 	info.append("Vie : ");
 	info.append(std::to_string(vie));
+	info.append("\n");
+	info.append("valeur marchande : ");
+	info.append(std::to_string(valeurMarchande));
 	info.append("\n");
 	return info;
 }

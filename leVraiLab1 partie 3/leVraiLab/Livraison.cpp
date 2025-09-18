@@ -1,5 +1,5 @@
 #include "Livraison.h"
-Livraison::Livraison(Faction* _faction) : Vaisseau(100000, 47, 600, 690, 500, "vaisseauBlebis", 1, 0, _faction)
+Livraison::Livraison(Faction* _faction) : Vaisseau(1000000, 47, 600, 690, 500, "vaisseauBlebis", 1, 0, _faction)
 {
 
 }

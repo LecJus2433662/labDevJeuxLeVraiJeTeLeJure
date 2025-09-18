@@ -14,6 +14,9 @@ public:
     ~Station();
     
     std::vector<Vaisseau*> getVaisseauDispo();
+    void menu();
+    void exoploration();
+    void acheterVaisseau(std::vector<Vaisseau*> vaisseauDispo);
     void init();
 
     void ajouterVaisseau(Vaisseau* vaisseau);

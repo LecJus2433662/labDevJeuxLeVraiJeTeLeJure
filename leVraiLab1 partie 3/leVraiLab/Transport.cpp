@@ -6,7 +6,7 @@ string Transport::to_String()
 	return info;
 }
 
-Transport::Transport(Faction* _faction) : Vaisseau(100000, 47, 600, 690, 500, "vaisseau Amazoune", 1, 0,_faction)
+Transport::Transport(Faction* _faction) : Vaisseau(85000, 47, 600, 690, 500, "vaisseau Amazoune", 1, 0,_faction)
 {
 
 }
